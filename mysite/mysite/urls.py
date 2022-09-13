@@ -27,6 +27,6 @@ urlpatterns = [
 # https://django-wiki.readthedocs.io/en/main/installation.html
 urlpatterns += [
       path('notifications/', include('django_nyt.urls')),
-      path('', include('wiki.urls')),
+      path('wiki/', include('wiki.urls')),
       *static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ]
