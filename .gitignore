@@ -1,0 +1,4 @@
+# PostgreSQL Data
+pg_data/
+# Python venv env
+env/
